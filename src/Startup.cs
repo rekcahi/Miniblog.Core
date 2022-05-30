@@ -106,6 +106,7 @@ namespace Miniblog.Core
                 {
                     OfflineRoute = "/shared/offline/"
                 });
+                //
 
             // Output caching (https://github.com/madskristensen/WebEssentials.AspNetCore.OutputCaching)
             services.AddOutputCaching(
